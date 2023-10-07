@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "seed": "ts-node --esm src/prisma/seed.ts"
+    "seed": "ts-node --esm src/prisma/seed.ts",
+    "blowout": "ts-node --esm src/prisma/blowout.ts"
   },
   "dependencies": {
     "@prisma/client": "^5.4.1",
