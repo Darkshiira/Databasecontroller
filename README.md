@@ -3,6 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Getting Started
 
 Make sure the JSON-file is named data.json and matches the database entries.
+Make sure your .env have the right DATABASE_URL. 
 
 Run the commandos in terminal to take down the latest database file:
 
