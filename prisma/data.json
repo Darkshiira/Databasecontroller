@@ -1,0 +1,38 @@
+{
+  "billboards": [
+    {
+      "text": "Billboard Text 1",
+      "image": "https://images.unsplash.com/photo-1634657443172-efbae44fd04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
+      "active": 0
+    },
+    {
+      "text": "Billboard Text 2",
+      "image": "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b3Jhbmdlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "active": 0
+    }
+  ],
+  "categories": [
+    {
+      "title": "frukt"
+    },
+    {
+      "title": "grönsaker"
+    }
+  ],
+  "products": [
+    {
+      "title": "Oliver",
+      "description": "Finns både som gröna, svarta och blandade",
+      "price": 100,
+      "image": "https://images.unsplash.com/photo-1634657443172-efbae44fd04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
+      "category": "grönsaker"
+    },
+    {
+      "title": "Apelsiner",
+      "description": "Stora och saftiga",
+      "price": 150,
+      "image": "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b3Jhbmdlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "category": "frukt"
+    }
+  ]
+}

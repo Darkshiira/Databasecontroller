@@ -1,0 +1,29 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Billboard {
+  id     String @id @default(uuid())
+  text   String
+  image  String
+  active Int    @default(0)
+}
+
+model Category {
+  id    String @id @default(uuid())
+  title String
+}
+
+model Product {
+  id          String @id @default(uuid())
+  title       String
+  description String
+  price       Int
+  image       String
+  category    String
+}
