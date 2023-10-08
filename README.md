@@ -2,8 +2,15 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-Make sure the JSON-file is named data.json and matches the database entries.
-Make sure your .env have the right DATABASE_URL. 
+(Make sure the JSON-file is named data.json, situates in the prisma-file, and matches the database entries.)
+Make sure your .env have the right DATABASE_URL.
+
+Run the command to install the dependencies that are needed:
+
+```bash
+npm i
+
+```
 
 Run the commandos in terminal to take down the latest database file:
 
@@ -31,4 +38,3 @@ npm run seed
 ```
 
 to add into the database.
-
