@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## First installation
+
+Make sure you create a .env file in your root directory. There you will put the "DATABASE_URL=..." given.
+
 ## Getting Started
 
 (Make sure the JSON-file is named data.json, situates in the prisma-file, and matches the database entries.)

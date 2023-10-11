@@ -91,6 +91,11 @@ async function main() {
         price: product.price,
         image: product.image,
         category: product.category,
+        size: product.size,
+        color: product.color,
+        manufacturer: product.manufacturer,
+        isarchived: product.isarchived,
+        isfeatured: product.isfeatured,
       },
     });
   }
