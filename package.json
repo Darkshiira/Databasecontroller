@@ -12,7 +12,8 @@
     "blowout": "ts-node --esm src/prisma/blowout.ts"
   },
   "dependencies": {
-    "@prisma/client": "^5.4.1",
+    "@prisma/client": "^5.4.2",
+    "dotenv": "^16.3.1",
     "next": "13.5.4",
     "react": "^18",
     "react-dom": "^18"

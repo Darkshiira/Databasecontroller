@@ -5,6 +5,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 (Make sure the JSON-file is named data.json, situates in the prisma-file, and matches the database entries.)
 Make sure your .env have the right DATABASE_URL.
 
+Run the command to make sure you have downloaded the latest changes:
+
+```bash
+npm git pull
+```
+
 Run the command to install the dependencies that are needed:
 
 ```bash

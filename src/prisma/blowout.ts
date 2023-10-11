@@ -3,9 +3,12 @@ import { PrismaClient } from "@prisma/client";
 const prisma = new PrismaClient();
 
 async function main() {
-  await prisma.billboard.deleteMany({});
-  await prisma.category.deleteMany({});
-  await prisma.product.deleteMany({});
+  const storeId = "e6b1cfa4-3d85-4b0e-8de1-d5512cdea68b";
+  await prisma.billboard.deleteMany({
+    where: { storeId },
+  });
+  await prisma.category.deleteMany({ where: { storeId } });
+  await prisma.product.deleteMany({ where: { storeId } });
 }
 
 main()
