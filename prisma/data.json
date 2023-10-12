@@ -3,48 +3,39 @@
     {
       "text": "Kom och köp våra fina oliver!",
       "image": "https://images.unsplash.com/photo-1634657443172-efbae44fd04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
-      "active": 0,
-      "storeId": "e6b1cfa4-3d85-4b0e-8de1-d5512cdea68b"
+      "active": 0
     },
     {
       "text": "Saftiga och läskande apelsiner!",
       "image": "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b3Jhbmdlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
-      "active": 0,
-      "storeId": "e6b1cfa4-3d85-4b0e-8de1-d5512cdea68b"
+      "active": 0
     }
   ],
   "categories": [
     {
-      "title": "frukt",
-      "storeId": "e6b1cfa4-3d85-4b0e-8de1-d5512cdea68b"
+      "title": "frukt"
     },
     {
-      "title": "grönsaker",
-      "storeId": "e6b1cfa4-3d85-4b0e-8de1-d5512cdea68b"
+      "title": "grönsaker"
     }
   ],
   "sizes": [
     {
-      "title": "1 kg",
-      "storeId": "e6b1cfa4-3d85-4b0e-8de1-d5512cdea68b"
+      "title": "1 kg"
     },
     {
-      "title": "1 st",
-      "storeId": "e6b1cfa4-3d85-4b0e-8de1-d5512cdea68b"
+      "title": "1 st"
     }
   ],
   "colors": [
     {
-      "title": "grön",
-      "storeId": "e6b1cfa4-3d85-4b0e-8de1-d5512cdea68b"
+      "title": "grön"
     },
     {
-      "title": "orange",
-      "storeId": "e6b1cfa4-3d85-4b0e-8de1-d5512cdea68b"
+      "title": "orange"
     },
     {
-      "title": "blandad",
-      "storeId": "e6b1cfa4-3d85-4b0e-8de1-d5512cdea68b"
+      "title": "blandad"
     }
   ],
   "products": [
@@ -60,8 +51,7 @@
       "isarchived": false,
       "ingredients": "oliver, salt, vatten",
       "manufacturer": "Oliver AB",
-      "stock": 100,
-      "storeId": "e6b1cfa4-3d85-4b0e-8de1-d5512cdea68b"
+      "stock": 100
     },
     {
       "title": "Apelsiner",
@@ -75,8 +65,7 @@
       "isarchived": false,
       "ingredients": "Citrusfrukt",
       "manufacturer": "Apelsiner AB",
-      "stock": 100,
-      "storeId": "e6b1cfa4-3d85-4b0e-8de1-d5512cdea68b"
+      "stock": 100
     }
   ]
 }

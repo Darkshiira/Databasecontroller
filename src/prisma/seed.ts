@@ -54,30 +54,12 @@ const jsonData: Objects = JSON.parse(
 );
 
 async function main() {
-  for (const billboard of jsonData.billboards) {
-    if (billboard.active === 1) {
-      const updated = await prisma.billboard
-        .updateMany({
-          where: { storeId: billboard.storeId, active: 1 },
-          data: { active: 0 },
-        })
-        .then(async () => {
-          await prisma.billboard.create({
-            data: {
-              storeId: billboard.storeId,
-              text: billboard.text,
-              image: billboard.image,
-              active: billboard.active,
-            },
-          });
-        });
-    }
-  }
+  const storeID = `${process.env.STORE_ID}`;
 
   for (const category of jsonData.categories) {
     await prisma.category.create({
       data: {
-        storeId: category.storeId,
+        storeId: storeID,
         title: category.title,
       },
     });
@@ -86,7 +68,7 @@ async function main() {
   for (const product of jsonData.products) {
     await prisma.product.create({
       data: {
-        storeId: product.storeId,
+        storeId: storeID,
         title: product.title,
         description: product.description,
         price: product.price,
@@ -102,8 +84,18 @@ async function main() {
       },
     });
   }
-}
 
+  for (const billboard of jsonData.billboards) {
+    await prisma.billboard.create({
+      data: {
+        storeId: storeID,
+        text: billboard.text,
+        image: billboard.image,
+        active: billboard.active,
+      },
+    });
+  }
+}
 main()
   .catch((e) => {
     console.error(e);
