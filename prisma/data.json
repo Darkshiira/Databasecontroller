@@ -50,7 +50,8 @@
       "isfeatured": true,
       "isarchived": false,
       "ingredients": "oliver, salt, vatten",
-      "manufacturer": "Oliver AB"
+      "manufacturer": "Oliver AB",
+      "stock": 100
     },
     {
       "title": "Apelsiner",
@@ -63,7 +64,8 @@
       "isfeatured": true,
       "isarchived": false,
       "ingredients": "Citrusfrukt",
-      "manufacturer": "Apelsiner AB"
+      "manufacturer": "Apelsiner AB",
+      "stock": 100
     }
   ]
 }

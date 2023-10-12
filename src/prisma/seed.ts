@@ -20,9 +20,11 @@ export type Product = {
   category: string;
   size?: string;
   color?: string;
-  manufacturer?: string;
-  isarchived?: boolean;
-  isfeatured?: boolean;
+  manufacturer: string;
+  isarchived: boolean;
+  isfeatured: boolean;
+  stock: number;
+  ingredients: string;
 };
 
 export type Category = {
@@ -96,6 +98,8 @@ async function main() {
         manufacturer: product.manufacturer,
         isarchived: product.isarchived,
         isfeatured: product.isfeatured,
+        stock: product.stock,
+        ingredients: product.ingredients,
       },
     });
   }

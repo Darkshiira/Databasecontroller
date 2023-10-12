@@ -39,6 +39,7 @@ model Product {
   color        String  @default("yellow")
   isarchived   Boolean @default(false)
   isfeatured   Boolean @default(false)
+  stock        Int     @default(0)
 
   @@index([storeId])
 }
