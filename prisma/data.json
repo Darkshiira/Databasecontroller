@@ -13,15 +13,55 @@
   ],
   "categories": [
     {
-      "title": "frukt"
+      "title": "frukt & grönt"
     },
     {
-      "title": "grönsaker"
+      "title": "fisk & skaldjur"
+    },
+    {
+      "title": "dryck"
+    },
+    {
+      "title": "mejeri & ost"
+    },
+    {
+      "title": "kött & chark"
+    },
+    {
+      "title": "bröd & fika"
+    },
+    {
+      "title": "hem & hushåll"
+    },
+    {
+      "title": "skafferi"
+    },
+    {
+      "title": "övrigt"
+    },
+    {
+      "title": "kryddor & smaksättare"
+    },
+    {
+      "title": "godis & snacks"
     }
+
   ],
   "sizes": [
     {
       "title": "kg"
+    },
+    {
+      "title": "st"
+    },
+    {
+      "title": "liter"
+    },
+    {
+      "title": "ml"
+    },
+    {
+      "title": "rullar"
     },
     {
       "title": "st"
@@ -36,6 +76,24 @@
     },
     {
       "title": "blandad"
+    },
+    {
+      "title": "brun"
+    },
+    {
+      "title": "röd"
+    },
+    {
+      "title": "svart"
+    },
+    {
+      "title": "grå"
+    },
+    {
+      "title": "vit"
+    },
+    {
+      "title": "rosa"
     }
   ],
   "products": [
