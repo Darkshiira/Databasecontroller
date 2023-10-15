@@ -38,6 +38,90 @@
       "title": "blandad"
     }
   ],
+  "customers": [
+    {
+      "firstName": "Andreas",
+      "lastName": "Andersson",
+      "e_mail": "andreas.andersson@aa.com",
+      "street": "Andreasgatan 1",
+      "zipCode": "123 45",
+      "city": "Andreasstad",
+      "phone": "070-123 45 67",
+      "order": [
+        {
+          "order_status": "skickad",
+          "order_total": 450,
+          "order_items": [
+            {
+              "title": "Oliver",
+              "price": 100,
+              "amount": 1
+            },
+            {
+              "title": "Apelsiner",
+              "price": 150,
+              "amount": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "firstName": "Bengt",
+      "lastName": "Bengtsson",
+      "e_mail": "bengan@bb.com",
+      "street": "Bengtsgatan 2",
+      "zipCode": "234 56",
+      "city": "Bengtstad",
+      "phone": "070-234 56 78",
+      "order": [
+        {
+          "order_status": "skickad",
+          "order_total": 450,
+          "order_items": [
+            {
+              "title": "Oliver",
+              "price": 100,
+              "amount": 1
+            },
+            {
+              "title": "Apelsiner",
+              "price": 150,
+              "amount": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "firstName": "Cecilia",
+      "lastName": "Cecilia",
+      "e_mail": "Cissi@ceciliano.com",
+      "street": "Ceciliagatan 3",
+      "zipCode": "345 67",
+      "city": "Ceciliastad",
+      "phone": "070-345 67 89",
+      "order": [
+        {
+          "order_status": "skickad",
+          "order_total": 450,
+          "order_items": [
+            {
+              "title": "Oliver",
+              "price": 100,
+              "amount": 1
+            },
+            {
+              "title": "Apelsiner",
+              "price": 150,
+              "amount": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
   "products": [
     {
       "title": "Oliver",
