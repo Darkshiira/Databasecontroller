@@ -48,6 +48,7 @@ export type Size = {
 export type Color = {
   storeId: string;
   title: string;
+  hex: string;
 };
 
 export type Customer = {
@@ -140,6 +141,7 @@ async function main() {
       data: {
         storeId: storeID,
         title: color.title,
+        hex: color.hex,
       },
     });
   }
