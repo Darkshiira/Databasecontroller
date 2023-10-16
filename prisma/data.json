@@ -16,6 +16,7 @@
       "title": "frukt & grönt"
     },
     {
+<<<<<<< HEAD
       "title": "fisk & skaldjur"
     },
     {
@@ -31,12 +32,24 @@
       "title": "bröd & fika"
     },
     {
+=======
+      "title": "grönsaker"
+    },
+    {
+      "title": "fisk & skaldjur"
+    },
+    {
+      "title": "mejeri & ost"
+    },
+    {
+>>>>>>> 0e6500e3bc77597775e68913f825c63d1a76006f
       "title": "hem & hushåll"
     },
     {
       "title": "skafferi"
     },
     {
+<<<<<<< HEAD
       "title": "övrigt"
     },
     {
@@ -44,6 +57,24 @@
     },
     {
       "title": "godis & snacks"
+=======
+      "title": "kryddor & smaksättare"
+    },
+    {
+      "title": "dryck"
+    },
+    {
+      "title": "kött & fågel"
+    },
+    {
+      "title": "bröd & bak"
+    },
+    {
+      "title": "godis & snacks"
+    },
+    {
+      "title": "frukt & grönt"
+>>>>>>> 0e6500e3bc77597775e68913f825c63d1a76006f
     }
 
   ],
@@ -55,26 +86,58 @@
       "title": "st"
     },
     {
+<<<<<<< HEAD
       "title": "liter"
+=======
+      "title": "g"
+>>>>>>> 0e6500e3bc77597775e68913f825c63d1a76006f
     },
     {
       "title": "ml"
     },
     {
+<<<<<<< HEAD
       "title": "rullar"
     },
     {
       "title": "st"
+=======
+      "title": "l"
+    },
+    {
+      "title": "cl"
+    },
+    {
+      "title": "dl"
+    },
+    {
+      "title": "rullar"
+    },
+    {
+      "title": "burkar"
+    },
+    {
+      "title": "påsar"
+    },
+    {
+      "title": "paket"
+    },
+    {
+      "title": "flaskor"
+>>>>>>> 0e6500e3bc77597775e68913f825c63d1a76006f
     }
   ],
   "colors": [
     {
-      "title": "grön"
+      "title": "grön",
+      "hex": "#008000"
     },
     {
-      "title": "orange"
+      "title": "orange",
+      "hex": "#ffa500"
     },
     {
+<<<<<<< HEAD
       "title": "blandad"
     },
     {
@@ -94,8 +157,96 @@
     },
     {
       "title": "rosa"
+=======
+      "title": "blandad",
+      "hex": "#808080"
+>>>>>>> 0e6500e3bc77597775e68913f825c63d1a76006f
     }
   ],
+  "customers": [
+    {
+      "firstName": "Andreas",
+      "lastName": "Andersson",
+      "e_mail": "andreas.andersson@aa.com",
+      "street": "Andreasgatan 1",
+      "zipCode": "123 45",
+      "city": "Andreasstad",
+      "phone": "070-123 45 67",
+      "order": [
+        {
+          "order_status": "skickad",
+          "order_total": 450,
+          "order_items": [
+            {
+              "title": "Oliver",
+              "price": 100,
+              "amount": 1
+            },
+            {
+              "title": "Apelsiner",
+              "price": 150,
+              "amount": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "firstName": "Bengt",
+      "lastName": "Bengtsson",
+      "e_mail": "bengan@bb.com",
+      "street": "Bengtsgatan 2",
+      "zipCode": "234 56",
+      "city": "Bengtstad",
+      "phone": "070-234 56 78",
+      "order": [
+        {
+          "order_status": "skickad",
+          "order_total": 450,
+          "order_items": [
+            {
+              "title": "Oliver",
+              "price": 100,
+              "amount": 1
+            },
+            {
+              "title": "Apelsiner",
+              "price": 150,
+              "amount": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "firstName": "Cecilia",
+      "lastName": "Cecilia",
+      "e_mail": "Cissi@ceciliano.com",
+      "street": "Ceciliagatan 3",
+      "zipCode": "345 67",
+      "city": "Ceciliastad",
+      "phone": "070-345 67 89",
+      "order": [
+        {
+          "order_status": "skickad",
+          "order_total": 450,
+          "order_items": [
+            {
+              "title": "Oliver",
+              "price": 100,
+              "amount": 1
+            },
+            {
+              "title": "Apelsiner",
+              "price": 150,
+              "amount": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
   "products": [
     {
       "title": "Oliver",
@@ -129,7 +280,7 @@
       "title": "Äpple",
       "description": "Ett saftigt äpple",
       "price": 120,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YXBwbGVzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
       "category": "frukt & grönt",
       "size": "1 kg",
       "color": "grön",
@@ -143,7 +294,7 @@
       "title": "Banan",
       "description": "En mogen banan",
       "price": 95,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://images.unsplash.com/photo-1587132137056-bfbf0166836e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1780&q=80",
       "category": "frukt & grönt",
       "size": "500 g",
       "color": "gul",
@@ -157,7 +308,7 @@
       "title": "Apelsin",
       "description": "Saftig apelsin",
       "price": 110,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://images.unsplash.com/photo-1557800636-894a64c1696f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1965&q=80",
       "category": "frukt & grönt",
       "size": "750 g",
       "color": "orange",
@@ -171,7 +322,7 @@
       "title": "Mango",
       "description": "Söt och saftig mango",
       "price": 140,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://images.unsplash.com/photo-1553279768-865429fa0078?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
       "category": "frukt & grönt",
       "size": "800 g",
       "color": "orange",
@@ -185,7 +336,7 @@
       "title": "Laxfilé",
       "description": "Färsk laxfilé för din middag",
       "price": 160,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://images.unsplash.com/photo-1499125562588-29fb8a56b5d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80",
       "category": "fisk & skaldjur",
       "size": "200 g",
       "color": "rosa",
@@ -199,7 +350,7 @@
       "title": "Räkor",
       "description": "Färska räkor för din favoritsallad",
       "price": 180,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://images.unsplash.com/photo-1548587468-971ebe4c8c3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1888&q=80",
       "category": "fisk & skaldjur",
       "size": "250 g",
       "color": "rosa",
@@ -213,7 +364,7 @@
       "title": "Torskfilé",
       "description": "Färsk torskfilé för ditt kök",
       "price": 150,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://images.unsplash.com/photo-1611507775040-6af3f6a18656?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1918&q=80",
       "category": "fisk & skaldjur",
       "size": "180 g",
       "color": "vit",
@@ -227,7 +378,7 @@
       "title": "Krabbklor",
       "description": "Färska krabbklor för din favoriträtt",
       "price": 200,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://images.unsplash.com/photo-1553659971-f01207815844?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80",
       "category": "fisk & skaldjur",
       "size": "300 g",
       "color": "orange",
@@ -241,7 +392,7 @@
       "title": "Apelsinjuice",
       "description": "Färskpressad apelsinjuice",
       "price": 60,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://images.unsplash.com/photo-1617319683252-027deeba5fd5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
       "category": "dryck",
       "size": "1 liter",
       "color": "orange",
@@ -255,7 +406,7 @@
       "title": "Mineralvatten",
       "description": "Kolsyrat mineralvatten",
       "price": 50,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://images.unsplash.com/photo-1597847006584-9c2918fc00f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1966&q=80",
       "category": "dryck",
       "size": "500 ml",
       "color": "klar",
@@ -269,7 +420,7 @@
       "title": "Coca-Cola",
       "description": "Klassisk cola med kolsyra",
       "price": 70,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://images.unsplash.com/photo-1566657817181-c69e4a8eeb1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
       "category": "dryck",
       "size": "750 ml",
       "color": "brun",
@@ -283,11 +434,11 @@
       "title": "Fanta",
       "description": "Klassisk Fanta",
       "price": 65,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://images.unsplash.com/photo-1624517452488-04869289c4ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2003&q=80",
       "category": "dryck",
       "size": "250 ml",
       "color": "orange",
-      "isfeatured": true,
+      "isfeatured": false,
       "isarchived": false,
       "ingredients": "Fanta",
       "manufacturer": "Fanta",
@@ -297,11 +448,11 @@
       "title": "Mjölk",
       "description": "Färsk mjölk från Arla",
       "price": 55,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://images.unsplash.com/photo-1600788907416-456578634209?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1950&q=80",
       "category": "mejeri & ost",
       "size": "1 liter",
       "color": "vit",
-      "isfeatured": true,
+      "isfeatured": false,
       "isarchived": false,
       "ingredients": "Mjölk",
       "manufacturer": "Arla",
@@ -311,11 +462,11 @@
       "title": "Ost",
       "description": "God ost från Arla",
       "price": 75,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://images.unsplash.com/photo-1589881133595-a3c085cb731d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1965&q=80",
       "category": "mejeri & ost",
       "size": "250 g",
       "color": "gul",
-      "isfeatured": true,
+      "isfeatured": false,
       "isarchived": false,
       "ingredients": "Mjölk, kalk, löpe",
       "manufacturer": "Arla",
@@ -325,11 +476,11 @@
       "title": "Yoghurt",
       "description": "Färsk yoghurt från Arla",
       "price": 60,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://plus.unsplash.com/premium_photo-1675964349915-4a915535060c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8eW9naHVydHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "category": "mejeri & ost",
       "size": "200 ml",
       "color": "vit",
-      "isfeatured": true,
+      "isfeatured": false,
       "isarchived": false,
       "ingredients": "Mjölk, yoghurtkultur",
       "manufacturer": "Arla",
@@ -339,11 +490,11 @@
       "title": "Smör",
       "description": "Färskt smör från Arla",
       "price": 70,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://images.unsplash.com/photo-1620567838034-f32ee85818aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YnV0dGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
       "category": "mejeri & ost",
       "size": "250 g",
       "color": "gul",
-      "isfeatured": true,
+      "isfeatured": false,
       "isarchived": false,
       "ingredients": "Mjölk, salt",
       "manufacturer": "Arla",
@@ -357,7 +508,7 @@
       "category": "hem & hushåll",
       "size": "1 st",
       "color": "grön",
-      "isfeatured": true,
+      "isfeatured": false,
       "isarchived": false,
       "ingredients": "Nylonborst, plasthandtag",
       "manufacturer": "Clean AB",
@@ -367,11 +518,11 @@
       "title": "Diskmedel",
       "description": "Effektivt diskmedel för glänsande diskar",
       "price": 60,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://plus.unsplash.com/premium_photo-1664443944738-357d3f7d1c42?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1988&q=80",
       "category": "hem & hushåll",
       "size": "500 ml",
       "color": "blå",
-      "isfeatured": true,
+      "isfeatured": false,
       "isarchived": false,
       "ingredients": "Vatten, tensider, doftämnen",
       "manufacturer": "Clean AB",
@@ -381,11 +532,11 @@
       "title": "Toalettpapper",
       "description": "Mjukt toalettpapper för din bekvämlighet",
       "price": 70,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://plus.unsplash.com/premium_photo-1664303079413-d62b4d6bed38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
       "category": "hem & hushåll",
       "size": "8 rullar",
       "color": "vit",
-      "isfeatured": true,
+      "isfeatured": false,
       "isarchived": false,
       "ingredients": "Pappersmassa",
       "manufacturer": "Lambi",
@@ -395,7 +546,7 @@
       "title": "Tvättmedel",
       "description": "Effektivt tvättmedel för rena kläder",
       "price": 80,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://images.unsplash.com/photo-1624372635310-01d078c05dd9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80",
       "category": "hem & hushåll",
       "size": "750 ml",
       "color": "vit",
@@ -409,11 +560,11 @@
       "title": "Ris",
       "description": "Kvalitetsris för dina favoriträtter",
       "price": 80,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://images.unsplash.com/photo-1516684732162-798a0062be99?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
       "category": "skafferi",
       "size": "1 kg",
       "color": "vit",
-      "isfeatured": true,
+      "isfeatured": false,
       "isarchived": false,
       "ingredients": "Ris",
       "manufacturer": "Risplantaget",
@@ -423,7 +574,7 @@
       "title": "Pasta",
       "description": "God pasta till din pastarätt",
       "price": 70,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://images.unsplash.com/photo-1551462147-ff29053bfc14?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cGFzdGF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
       "category": "skafferi",
       "size": "500 g",
       "color": "gul",
@@ -451,11 +602,11 @@
       "title": "Kaffebönor",
       "description": "Gudomliga kaffebönor",
       "price": 65,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://plus.unsplash.com/premium_photo-1675435644687-562e8042b9db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29mZmViZWFuc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "category": "skafferi",
       "size": "250 g",
       "color": "svart",
-      "isfeatured": true,
+      "isfeatured": false,
       "isarchived": false,
       "ingredients": "Kaffe, vatten",
       "manufacturer": "Arvid Lundqvist",
@@ -465,7 +616,7 @@
       "title": "Peppar",
       "description": "Färsk malen svartpeppar",
       "price": 50,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://images.unsplash.com/photo-1591801058986-9e28e68670f7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cGVwcGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
       "category": "kryddor & smaksättare",
       "size": "100 g",
       "color": "svart",
@@ -479,11 +630,11 @@
       "title": "Salt",
       "description": "Havssalt för ditt kök",
       "price": 60,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://images.unsplash.com/photo-1518110925495-5fe2fda0442c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2FsdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "category": "kryddor & smaksättare",
       "size": "250 g",
       "color": "vitt",
-      "isfeatured": true,
+      "isfeatured": false,
       "isarchived": false,
       "ingredients": "Havssalt",
       "manufacturer": "Hakims Kryddskåp",
@@ -493,11 +644,11 @@
       "title": "Kanel",
       "description": "Mald kanel för dina bakverk",
       "price": 55,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://images.unsplash.com/photo-1587131782738-de30ea91a542?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2lubmFtb258ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
       "category": "kryddor & smaksättare",
       "size": "75 g",
       "color": "brun",
-      "isfeatured": true,
+      "isfeatured": false,
       "isarchived": false,
       "ingredients": "Kanel",
       "manufacturer": "Hakims Kryddskåp",
@@ -507,11 +658,11 @@
       "title": "Chili Flakes",
       "description": "Kryddiga chiliflingor för extra hetta",
       "price": 70,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://images.unsplash.com/photo-1633372363856-f2fe2669a26e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2hpbGlmbGFrZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
       "category": "kryddor & smaksättare",
       "size": "50 g",
       "color": "röd",
-      "isfeatured": true,
+      "isfeatured": false,
       "isarchived": false,
       "ingredients": "Chiliflingor",
       "manufacturer": "Hakims Kryddskåp",
@@ -521,11 +672,11 @@
       "title": "Chokladkaka",
       "description": "Härlig chokladkaka för ditt sötsug",
       "price": 65,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hvY29sYXRlJTIwY2FrZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "category": "godis & snacks",
       "size": "100 g",
       "color": "brun",
-      "isfeatured": true,
+      "isfeatured": false,
       "isarchived": false,
       "ingredients": "Kaka, choklad",
       "manufacturer": "Godiskungen",
@@ -535,7 +686,7 @@
       "title": "Potatischips",
       "description": "Goda potatischips för din kvällsnacks",
       "price": 55,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://images.unsplash.com/photo-1588221319591-c6a2189ee29b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG90YXRvY2hpcHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
       "category": "godis & snacks",
       "size": "150 g",
       "color": "gul",
@@ -549,11 +700,11 @@
       "title": "Lakrits",
       "description": "Söta lakritsbitar för lakritsälskaren",
       "price": 70,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://images.unsplash.com/photo-1521905844287-b50baaa33df3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGljb3JpY2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
       "category": "godis & snacks",
       "size": "200 g",
       "color": "svart",
-      "isfeatured": true,
+      "isfeatured": false,
       "isarchived": false,
       "ingredients": "Lakrits",
       "manufacturer": "Godiskungen",
@@ -563,7 +714,7 @@
       "title": "Nötter",
       "description": "Härlig nötblandning för ditt mellanmål",
       "price": 75,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://images.unsplash.com/photo-1543158181-1274e5362710?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bnV0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "category": "godis & snacks",
       "size": "250 g",
       "color": "blandad",
@@ -577,11 +728,11 @@
       "title": "Salami",
       "description": "Kryddig salami för smörgåsen",
       "price": 85,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://plus.unsplash.com/premium_photo-1679591002311-895233c5e2da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2FsYW1pfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
       "category": "kött & chark",
       "size": "150 g",
       "color": "röd",
-      "isfeatured": true,
+      "isfeatured": false,
       "isarchived": false,
       "ingredients": "Fläskkött, kryddor",
       "manufacturer": "Hakkes Slakteri",
@@ -591,7 +742,7 @@
       "title": "Korv",
       "description": "God korv för grillkvällen",
       "price": 80,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://images.unsplash.com/photo-1598401863352-3de5501f4890?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c2F1c2FnZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "category": "kött & chark",
       "size": "200 g",
       "color": "grå",
@@ -605,11 +756,11 @@
       "title": "Kycklingfilé",
       "description": "Saftig kycklingfilé för ditt recept",
       "price": 90,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpY2tlbiUyMHJhd3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "category": "kött & chark",
       "size": "250 g",
       "color": "vit",
-      "isfeatured": true,
+      "isfeatured": false,
       "isarchived": false,
       "ingredients": "Kyckling",
       "manufacturer": "Hakkes Slakteri",
@@ -619,11 +770,11 @@
       "title": "Nötkött",
       "description": "Högkvalitativt nötkött för din stek",
       "price": 95,
-      "image": "https://images.ctfassets.net/iidtcybzv1rq/2UEOt4WB9TcgOqrReg98bB/1850df1d08f35e4f518af779a30cd5e9/image__2_.png?w=1000&",
+      "image": "https://plus.unsplash.com/premium_photo-1670357599528-c604816e04f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWluY2VkJTIwbWVhdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "category": "kött & chark",
       "size": "300 g",
       "color": "rött",
-      "isfeatured": true,
+      "isfeatured": false,
       "isarchived": false,
       "ingredients": "Nötkött",
       "manufacturer": "Hakkes Slakteri",

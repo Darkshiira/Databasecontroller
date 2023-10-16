@@ -9,6 +9,7 @@ export type Objects = {
   products: Product[];
   sizes: Size[];
   colors: Color[];
+  customers: Customer[];
 };
 
 export type Product = {
@@ -41,12 +42,44 @@ export type Billboard = {
 
 export type Size = {
   storeId: string;
-  size: string;
+  title: string;
 };
 
 export type Color = {
   storeId: string;
-  color: string;
+  title: string;
+  hex: string;
+};
+
+export type Customer = {
+  id: string | undefined;
+  storeId: string;
+  firstName: string;
+  lastName: string;
+  street: string;
+  zipCode: string;
+  city: string;
+  e_mail: string;
+  phone: string;
+  order: Order[];
+};
+
+export type Order = {
+  id: string | undefined;
+  storeId: string;
+  order_date: Date;
+  order_status: string;
+  order_total: number;
+  order_items: OrderItem[];
+};
+
+export type OrderItem = {
+  id: string | undefined;
+  storeId: string;
+  orderId: string;
+  amount: number;
+  price: number;
+  title: string;
 };
 
 const jsonData: Objects = JSON.parse(
@@ -95,7 +128,56 @@ async function main() {
       },
     });
   }
+  for (const size of jsonData.sizes) {
+    await prisma.size.create({
+      data: {
+        storeId: storeID,
+        title: size.title,
+      },
+    });
+  }
+  for (const color of jsonData.colors) {
+    await prisma.color.create({
+      data: {
+        storeId: storeID,
+        title: color.title,
+        hex: color.hex,
+      },
+    });
+  }
+
+  for (const customer of jsonData.customers) {
+    await prisma.customer.create({
+      data: {
+        storeId: storeID,
+        firstName: customer.firstName,
+        lastName: customer.lastName,
+        street: customer.street,
+        zipCode: customer.zipCode,
+        city: customer.city,
+        e_mail: customer.e_mail,
+        phone: customer.phone,
+        Order: {
+          create: customer.order.map((order: Order) => ({
+            storeId: storeID,
+            order_date: order.order_date,
+            order_number: Math.random() * 1000000,
+            order_status: order.order_status,
+            order_total: order.order_total,
+            order_items: {
+              create: order.order_items.map((orderItem) => ({
+                amount: orderItem.amount,
+                price: orderItem.price,
+                title: orderItem.title,
+              })),
+            },
+          })),
+        },
+      },
+    });
+  }
 }
+
 main()
   .catch((e) => {
     console.error(e);
